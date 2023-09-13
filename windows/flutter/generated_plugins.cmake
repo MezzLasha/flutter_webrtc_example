@@ -3,8 +3,11 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+  connectivity_plus
   firebase_core
   flutter_webrtc
+  flutter_window_close
+  livekit_client
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

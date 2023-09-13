@@ -33,7 +33,8 @@ dependencies:
   firebase_core: ^2.15.1
   flutter:
     sdk: flutter
-  flutter_webrtc: ^0.9.41
+  flutter_webrtc: ^0.9.40
+  livekit_client: ^1.4.3
 
 dev_dependencies:
   flutter_lints: ^2.0.0
