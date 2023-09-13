@@ -2,9 +2,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
 import 'package:flutter_webrtc_example/firebase_options.dart';
+import 'package:flutter_webrtc_example/livekit/pages/connect.dart';
 import 'package:flutter_webrtc_example/signaling/signaling.dart';
 import 'package:flutter_webrtc_example/signaling/signaling_screen.dart';
-import 'package:flutter_webrtc_example/livekit/livekit.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const LiveKitScreen(),
+                            builder: (context) => const ConnectPage(),
                           ));
                     },
                     child: const Text('Using Livekit'))

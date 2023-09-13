@@ -33,8 +33,13 @@ dependencies:
   firebase_core: ^2.15.1
   flutter:
     sdk: flutter
+  flutter_background: ^1.2.0
+  flutter_svg: ^2.0.7
   flutter_webrtc: ^0.9.40
+  google_fonts: ^5.1.0
   livekit_client: ^1.4.3
+  permission_handler: ^11.0.0
+  shared_preferences: ^2.2.1
 
 dev_dependencies:
   flutter_lints: ^2.0.0
